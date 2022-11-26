@@ -1,0 +1,91 @@
+{% extends "layout.html" %}
+<!-- {% load static %} -->
+{% block body %}
+<div class ="container mt-5">
+   <h1 class="text-center">Introduction</h1>
+   <p>
+     Hi, I am Mofazzal Hossain and welcome everyone to visit my Portfolio.
+     I am very patient with my goal and I really believe that every input has an output 
+     I always try to do something that will be helpful for everyone. 
+     Now I am studying CSE at Daffodil International University
+     and I will go for higher study to achieve better knowledge and do something new in my entire life.
+   </p>
+   <img src="{% static 'images/p1.png' %}" class="rounded mx-auto d-block w-25 p-3" alt="My_photo">
+</div> 
+
+<div class ="container mt-5">
+  <div class="card">
+    <div class="text-center">
+    Experiances
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">WOrk with Team</h5>
+      <p class="card-text">Participate C Programming</p>
+      <strong>17th June 2021</strong>
+      <div><ul class="list-group list-group-flush">
+        <li class="list-group-item">Problem Solveing</li>
+        <li class="list-group-item">Bug Identify</li>
+        <li class="list-group-item">Time Management</li>
+        <li class="list-group-item">Discussion</li>
+        <li class="list-group-item">Submission</li>
+      </ul></div>
+    </div>
+    
+    <div class="card-body">
+      <h5 class="card-title">Online Gameing Contest</h5>
+      <p class="card-text">Organize online FreeFire Tournaments</p>
+      <strong>17th May 2022</strong>
+      <div><ul class="list-group list-group-flush">
+        <li class="list-group-item">Team Creation</li>
+        <li class="list-group-item">Join Game Server</li>
+        <li class="list-group-item">Good Behaviour</li>
+        <li class="list-group-item">Share Experiance</li>
+        <li class="list-group-item">Feedback to Others</li>
+      </ul></div>
+    </div>
+</div>
+
+<div class ="container mt-5">
+  <div class="card">
+    <div class="card-header text-center">
+      Acquired Skills
+    </div>
+    <div class="card-body">
+      <div class="row">
+        <div class="col">
+          <strong class="text-center">Knowledge</strong>
+
+          <div><ul class="list-group list-group-flush">
+            <li class="list-group-item">Working Process</li>
+            <li class="list-group-item">Team Management</li>
+            <li class="list-group-item">Behaviour</li>
+            <li class="list-group-item">Good Idea</li>
+            <li class="list-group-item">Communication</li>
+          </ul></div>
+
+
+        </div>
+        
+        <div class="col">
+          <strong class="text-center">Area</strong>
+
+
+          <div><ul class="list-group list-group-flush">
+            <li class="list-group-item">Random People</li>
+            <li class="list-group-item">Foreign Clients</li>
+            <li class="list-group-item">Corporate People</li>
+            <li class="list-group-item">Seniour Developers</li>
+            <li class="list-group-item">Management</li>
+          </ul></div>
+
+        </div>
+        
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}
+
