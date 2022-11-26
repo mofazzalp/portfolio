@@ -25,3 +25,4 @@ urlpatterns = [
     path('new/',new,name='new'),
     
 ]
+

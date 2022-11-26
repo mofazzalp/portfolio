@@ -11,4 +11,5 @@ def contract(request):
     return render(request,'contract.html')  
 
 def new(request):
-    return render(request,'new.html')  
+    return render(request,'new.html')
+      
